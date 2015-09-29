@@ -14,7 +14,7 @@
             android:id="@+id/system_version_title"
             android:layout_width="@dimen/title_width"
             android:layout_height="wrap_content"
-            android:text="系统版本"/>
+            android:text="@string/sys_version"/>
 
         <TextView
             android:id="@+id/system_version_content"
@@ -32,7 +32,7 @@
             android:id="@+id/imei_title"
             android:layout_width="@dimen/title_width"
             android:layout_height="wrap_content"
-            android:text="IMEI号"/>
+            android:text="@string/imei"/>
 
         <TextView
             android:id="@+id/imei_content"
@@ -50,7 +50,7 @@
             android:id="@+id/system_description_title"
             android:layout_width="@dimen/title_width"
             android:layout_height="wrap_content"
-            android:text="系统描述"/>
+            android:text="@string/sys_des"/>
 
         <TextView
             android:id="@+id/system_description_content"
@@ -60,18 +60,36 @@
             android:textColor="@color/blue_sora"/>
     </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin_top">
+        <TextView
+            android:id="@+id/nfc_status_title"
+            android:layout_width="@dimen/title_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nfc_status"/>
+
+        <TextView
+            android:id="@+id/nfc_status_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/nfc_status_title"
+            android:textColor="@color/blue_sora"/>
+    </RelativeLayout>
+
     <Button
         android:id="@+id/app_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="应用信息"
+        android:text="@string/app_info"
         android:layout_marginTop="@dimen/common_margin_top"/>
 
     <Button
         android:id="@+id/se_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SE信息"
+        android:text="@string/se_info"
         android:layout_marginTop="@dimen/common_margin_top"/>
 
 </LinearLayout>

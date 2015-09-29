@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
     <string name="app_name">工具箱</string>
+    <string name="sys_version">系统版本</string>
+    <string name="sys_des">系统描述</string>
+    <string name="nfc_status">NFC状态</string>
+    <string name="se_info">SE信息</string>
+    <string name="imei" translatable="false" />
+    <string name="app_info">应用信息</string>
+    <string name="nfc_status_text">硬件是否支持NFC:<xliff:g id="nfc_device">%1$s</xliff:g>\n
+        NFC是否开启:<xliff:g id="nfc_enable">%1$s</xliff:g></string>
 </resources>

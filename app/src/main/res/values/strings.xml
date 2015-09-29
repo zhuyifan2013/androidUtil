@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Mi Util</string>
+    <string name="sys_version">System Ver.</string>
+    <string name="imei" translatable="false">IMEI</string>
+    <string name="sys_des">System Des.</string>
+    <string name="nfc_status">NFC Status</string>
+    <string name="app_info">App Info</string>
+    <string name="se_info">SE Info</string>
+    <string name="nfc_status_text">Device supports NFC:<xliff:g id="nfc_device">%1$s</xliff:g>\n
+        NFC is enabled:<xliff:g id="nfc_enable">%1$s</xliff:g></string>
 </resources>
